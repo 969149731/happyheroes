@@ -22,8 +22,8 @@ import com.kxcs.service.imp.CkinServiceImp;
 
 /**
  * @Author chenjie
- * @Date 2021年3月27日下午3:28:51
- * @Des 进货管理
+ * @Date 2021年5月27日下午3:28:51
+ * @Des 仓库进货控制器
  */
 @Controller
 @RequestMapping("/staff/flatform/ckin")
@@ -49,13 +49,7 @@ public class CkinController {
         model.addAttribute("ckin",ckinServiceImp.getbyid(inid));  
         return "getckin";  
     }
-//    根据条件查询
-   /* @RequestMapping("/getwhere")  
-    public String getwhere(String  id,String pname,String  type ,HttpServletRequest request,Model model){  
-        request.setAttribute(" duct", ckinServiceImp.getbywhere( id, pname,  type));
-        model.addAttribute(" duct",ckinServiceImp.getbywhere( id, pname,  type));  
-        return "getlist";  
-    }*/
+
 	@RequestMapping("edit")
 	public String edit(Ckin ckin,HttpServletRequest request,Model model){
 		model.addAttribute("ckin", ckinServiceImp.getbyid(ckin.getInid()));

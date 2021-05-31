@@ -12,7 +12,7 @@ import com.kxcs.service.ITypeService;
 
 /**
  * @Author chenjie
- * @Date 2021年3月25日下午2:26:32
+ * @Date 2021年5月25日下午2:26:32
  * @Des 类别管理实现
  */
 @Service

@@ -8,7 +8,7 @@ import com.kxcs.entity.Kcxx;
 
 /**
  * @Author chenjie
- * @Date 2021年3月28日上午10:51:40
+ * @Date 2021年5月28日上午10:51:40
  * @Des 库存信息
  */
 public interface IKcxxService {

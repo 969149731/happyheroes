@@ -9,7 +9,7 @@ import com.kxcs.entity.CkretireExample;
 
 /**
  * @Author chenjie
- * @Date 2021年3月28日上午9:36:30
+ * @Date 2021年5月28日上午9:36:30
  * @Des 仓库退货
  */
 public interface ICkretireService {

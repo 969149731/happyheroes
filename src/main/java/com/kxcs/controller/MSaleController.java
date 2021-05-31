@@ -21,8 +21,8 @@ import com.kxcs.service.imp.SaleServiceImp;
 
 /**
  * @Author chenjie
- * @Date 2021年4月19日下午1:58:43
- * @Des 
+ * @Date 2021年5月19日下午1:58:43
+ * @Des 销售控制器
  */
 @Controller
 @RequestMapping("/manager/flatform/sale")

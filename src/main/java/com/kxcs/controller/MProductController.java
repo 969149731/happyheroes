@@ -24,8 +24,8 @@ import com.kxcs.service.imp.ProductServiceImp;
 
 /**
  * @Author chenjie
- * @Date 2021年4月19日下午1:43:28
- * @Des 
+ * @Date 2021年5月19日下午1:43:28
+ * @Des  商品信息控制器
  */
 @Controller
 @RequestMapping("/manager/flatform/product")

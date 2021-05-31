@@ -18,8 +18,8 @@ import com.kxcs.service.imp.SupplyMapperServiceImp;
 
 /**
  * @Author chenjie
- * @Date 2021年4月19日下午2:11:52
- * @Des 
+ * @Date 2021年5月19日下午2:11:52
+ * @Des  供货商控制器
  */
 @Controller
 @RequestMapping("/manager/flatform/supply")

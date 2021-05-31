@@ -24,8 +24,8 @@ import com.kxcs.service.imp.KcxxServiceImp;
 
 /**
  * @Author chenjie
- * @Date 2021年4月19日下午1:53:19
- * @Des 
+ * @Date 2021年5月19日下午1:53:19
+ * @Des 仓库信息控制器
  */
 @Controller
 @RequestMapping("/manager/flatform/kcxx")

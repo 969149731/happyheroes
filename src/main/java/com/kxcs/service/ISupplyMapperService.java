@@ -9,7 +9,7 @@ import com.kxcs.entity.SupplyExample;
 
 /**
  * @Author chenjie
- * @Date 2021年3月27日上午10:16:56
+ * @Date 2021年5月27日上午10:16:56
  * @Des 
  */
 public interface ISupplyMapperService {

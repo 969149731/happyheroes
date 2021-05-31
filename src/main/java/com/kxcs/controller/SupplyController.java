@@ -1,11 +1,4 @@
 package com.kxcs.controller;
-/**
- * @Author chenjie
- * @Date 2021年3月27日上午10:53:15
- * @Des 供应商控制器
- */
-
-
 
 import java.util.List;
 
@@ -25,9 +18,10 @@ import com.kxcs.service.imp.SupplyMapperServiceImp;
 
 /**
  * @Author chenjie
- * @Date 2021年3月25日下午2:30:11
- * @Des  客户类别控制器
+ * @Date 2021年5月27日上午10:53:15
+ * @Des 供应商控制器
  */
+
 @Controller
 @RequestMapping("/staff/flatform/supply")
 public class SupplyController {

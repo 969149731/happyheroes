@@ -16,7 +16,11 @@ import com.github.pagehelper.PageInfo;
 import com.kxcs.entity.Ckin;
 import com.kxcs.entity.Sale;
 import com.kxcs.service.imp.SaleServiceImp;
-
+/**
+ * @Author chenjie
+ * @Date 2021年5月19日下午1:58:43
+ * @Des 员工销售控制器
+ */
 @Controller
 @RequestMapping("/staff/flatform/sale")
 public class SaleController {

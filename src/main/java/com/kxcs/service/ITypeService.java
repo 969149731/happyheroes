@@ -9,7 +9,7 @@ import com.kxcs.entity.TypeExample;
 
 /**
  * @Author chenjie
- * @Date 2021年3月25日下午2:24:36
+ * @Date 2021年5月25日下午2:24:36
  * @Des  类别管理
  */
 public interface ITypeService {

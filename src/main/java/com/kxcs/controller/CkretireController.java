@@ -26,8 +26,8 @@ import com.kxcs.service.imp.CkretireServiceImp;
 
 /**
  * @Author chenjie
- * @Date 2021年3月28日上午9:42:09
- * @Des  退货管理
+ * @Date 2021年5月28日上午9:42:09
+ * @Des  仓库退货控制器
  */
 @Controller
 @RequestMapping("/staff/flatform/ckretire")
@@ -57,13 +57,7 @@ public class CkretireController {
         model.addAttribute("ckretire",ckretireServiceImp.getbyid(inid));  
         return "getckretire";  
     }
-//    根据条件查询
-   /* @RequestMapping("/getwhere")  
-    public String getwhere(String  id,String pname,String  type ,HttpServletRequest request,Model model){  
-        request.setAttribute(" duct", ckretireServiceImp.getbywhere( id, pname,  type));
-        model.addAttribute(" duct",ckretireServiceImp.getbywhere( id, pname,  type));  
-        return "getlist";  
-    }*/
+
 	@RequestMapping("edit")
 	public String edit(Ckretire ckretire,HttpServletRequest request,Model model){
 		model.addAttribute("ckretire", ckretireServiceImp.getbyid(ckretire.getInid()));

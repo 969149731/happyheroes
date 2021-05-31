@@ -6,7 +6,7 @@ import com.kxcs.entity.Manager;
 
 /**
  * @Author chenjie
- * @Date 2021年4月16日下午1:31:39
+ * @Date 2021年5月16日下午1:31:39
  * @Des 
  */
 public interface IManagerService {

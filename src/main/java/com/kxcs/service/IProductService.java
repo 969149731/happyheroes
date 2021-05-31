@@ -1,7 +1,7 @@
 package com.kxcs.service;
 /**
  * @Author chenjie
- * @Date 2021年3月18日下午2:18:57
+ * @Date 2021年5月18日下午2:18:57
  * @Des 商品接口类
  */
 

@@ -23,8 +23,8 @@ import com.kxcs.service.imp.CkinServiceImp;
 
 /**
  * @Author chenjie
- * @Date 2021年4月19日下午12:37:59
- * @Des 
+ * @Date 2021年5月19日下午12:37:59
+ * @Des  管理员仓库进货控制器
  */
 @Controller
 @RequestMapping("/manager/flatform/ckin")

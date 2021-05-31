@@ -13,7 +13,7 @@ import com.kxcs.service.IProductService;
 
 /**
  * @Author chenjie
- * @Date 2021年3月18日下午2:28:45
+ * @Date 2021年5月18日下午2:28:45
  * @Des 商品信息实现类
  */
 @Service

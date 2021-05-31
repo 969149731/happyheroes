@@ -26,8 +26,8 @@ import com.kxcs.service.imp.SaleServiceImp;
 
 /**
  * @Author chenjie
- * @Date 2021年4月19日下午2:03:52
- * @Des 
+ * @Date 2021年5月19日下午2:03:52
+ * @Des  顾客退货控制器
  */
 @Controller
 @RequestMapping("/manager/flatform/cusretire")

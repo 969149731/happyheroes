@@ -18,8 +18,8 @@ import com.kxcs.service.imp.TypeServiceImp;
 
 /**
  * @Author chenjie
- * @Date 2021年4月19日下午1:48:07
- * @Des 
+ * @Date 2021年5月19日下午1:48:07
+ * @Des 商品类别控制器
  */
 @Controller
 @RequestMapping("/manager/flatform/type")

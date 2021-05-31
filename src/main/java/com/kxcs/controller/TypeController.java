@@ -20,7 +20,7 @@ import com.kxcs.service.imp.TypeServiceImp;
 
 /**
  * @Author chenjie
- * @Date 2021年3月25日下午2:30:11
+ * @Date 2021年5月25日下午2:30:11
  * @Des  商品类别控制器
  */
 @Controller

@@ -10,7 +10,7 @@ import com.kxcs.entity.Product;
 
 /**
  * @Author chenjie
- * @Date 2021年3月27日下午3:10:49
+ * @Date 2021年5月27日下午3:10:49
  * @Des 进货信息
  */
 public interface ICkinService {

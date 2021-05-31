@@ -25,8 +25,8 @@ import com.kxcs.tools.Constants;
 
 /**
  * @Author chenjie
- * @Date 2021年4月16日下午1:56:55
- * @Des 管理员控制层
+ * @Date 2021年5月16日下午1:56:55
+ * @Des 管理员控制器
  */
 @Controller
 @RequestMapping("/manager")

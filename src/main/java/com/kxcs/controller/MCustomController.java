@@ -18,8 +18,8 @@ import com.kxcs.service.imp.CustomServiceImp;
 
 /**
  * @Author chenjie
- * @Date 2021年4月19日下午2:08:21
- * @Des 
+ * @Date 2021年5月19日下午2:08:21
+ * @Des 客户信息控制器
  */
 @Controller
 @RequestMapping("/manager/flatform/custom")
