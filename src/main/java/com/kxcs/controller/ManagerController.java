@@ -167,7 +167,7 @@ public class ManagerController {
 		return "manager/getall_staff";
   }
 
-  //多表查询
+  //多表查询   一对多
 	@RequestMapping("/getalltwo")
 	public String getall_manycus(ModelMap model,
 							 @RequestParam(defaultValue="1",required=true,value="pn") Integer pn
