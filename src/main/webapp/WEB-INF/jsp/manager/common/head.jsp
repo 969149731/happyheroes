@@ -86,7 +86,11 @@ function get(id) {
             	  <li><a><i class="fa fa-clone"></i>员工信息管理 <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="${pageContext.request.contextPath }/manager/getall">员工信息</a></li>
+                      <li><a href="${pageContext.request.contextPath }/manager/getalltwo">员工信息（多表查询）</a></li>
                     </ul>
+
+
+
                   </li>
                 </ul>
               </div>

@@ -5,6 +5,8 @@ import java.util.List;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
+import com.kxcs.entity.Stafftwo;
+import com.kxcs.service.imp.StafftwoServiceImpl;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -36,6 +38,8 @@ public class ManagerController {
 	ManagerServiceImp managerServiceImp;
 	@Autowired
 	StaffServiceImp staffServiceImp;
+	@Autowired
+	StafftwoServiceImpl stafftwoServiceImpl;
 	
 	@Autowired
 	KcxxServiceImp kcxxServiceImp;
@@ -162,6 +166,28 @@ public class ManagerController {
 		model.addAttribute("pageInfo", pageInfo);
 		return "manager/getall_staff";
   }
+
+  //多表查询
+	@RequestMapping("/getalltwo")
+	public String getall_manycus(ModelMap model,
+							 @RequestParam(defaultValue="1",required=true,value="pn") Integer pn
+	) {
+		PageHelper.startPage(pn, 4);
+		List<Stafftwo> staffs= stafftwoServiceImpl.findAllStafftwo();
+		PageInfo<Stafftwo> pageInfo=new PageInfo<Stafftwo>(staffs);
+		model.addAttribute("pageInfo", pageInfo);
+		System.out.println("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
+		return "manager/getall_stafftwo";
+	}
+
+
+
+
+
+
+
+
+
 //根据条件查询
   @RequestMapping("getbyparams")
   public String getbyparams(@RequestParam(value="staffname",required=false)String staffname,@RequestParam(value="staffid",required=false)String staffid,

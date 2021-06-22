@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="happy_market@localhost" uuid="7eab8543-4cec-46f3-a994-2e73c2bf8ad7">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/happy_market</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="happy_market@localhost [2]" uuid="48e62e39-5221-45e4-a73d-705827d636b2">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/happy_market</jdbc-url>
+    </data-source>
+  </component>
+</project>
